@@ -713,8 +713,6 @@ a.m-btn, button.m-btn {
       margin: 10px 0;
       border-radius: 6px;
       transition: all 0.5s ease; }
-      .product-slider-box .slider-nav-thumbnails .slider-nav-thumbnails__item.slick-current {
-        box-shadow: 0px 0px 5px #2F9556; }
       .product-slider-box .slider-nav-thumbnails .slider-nav-thumbnails__item:focus, .product-slider-box .slider-nav-thumbnails .slider-nav-thumbnails__item:hover {
         border: 1px solid #2F9556;
         outline: none;
@@ -1146,6 +1144,20 @@ footer {
 
   .thumb-column {
     width: 100%;
-    height: 100px; } }
+    height: 100px;
+    margin-right: 0;
+    margin-top: 25px; }
+
+  .product-slider-box .slider-nav-thumbnails {
+    width: 100%; }
+
+  .product-slider-box .product-slider {
+    width: 100%; }
+
+  .product-slider-box .product-slider .product-slider__item {
+    height: 350px; }
+
+  .product-slider-box .slider-nav-thumbnails .slider-nav-thumbnails__item {
+    margin: 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */
