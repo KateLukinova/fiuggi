@@ -59,6 +59,9 @@ body {
     color: #111111;
     background-color: black;
     overflow-x: hidden;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
 }
 header {
     position: absolute;
@@ -83,7 +86,7 @@ header {
 }
 h1 {
     font-family: 'SequelSans-Bold', sans-serif;
-    font-size: 3.5vw;
+    font-size: 3.3vw;
     line-height: 1;
     color: #E7FFE9;
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -94,7 +97,8 @@ h1 {
 h2 {
     font-family: 'SequelSans-Medium', sans-serif;
     font-style: normal;
-    font-size: 1.8vw;
+    font-weight: normal;
+    font-size: 1.25vw;
     line-height: 1.5;
     color: #C0FFC7;
     opacity: 0.7;
@@ -164,6 +168,14 @@ a.m-btn, button.m-btn {
     color: #FFFFFF;
 }
 
+.circles {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 55%;
+    transform: translateX(-50%);
+}
+
 .m-navbar {
     margin: auto;
     width: 95%;
@@ -186,10 +198,9 @@ a.m-btn, button.m-btn {
 
     .navbar-nav {
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .nav-item {
-        margin-left: 40px;
         .nav-link {
             font-family: 'SequelSans-Medium', sans-serif;
             font-size: 16px;
@@ -232,13 +243,12 @@ a.m-btn, button.m-btn {
     }
 
     .navbar-brand {
-        width: 3vw;
-        min-width: 140px;
+        width: 110px;
         padding-bottom: 0;
         height: 60px;
         img {
             width: 100%;
-            max-width: 140px;
+            max-width: 110px;
         }
     }
 }
@@ -246,15 +256,19 @@ a.m-btn, button.m-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 80%;
+    width: 88%;
 }
 
 .bg-main-image {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
     background-image: url("../img/back-main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    background-attachment: fixed;
     &:before {
         content: '';
         display: inline-block;
@@ -277,9 +291,10 @@ a.m-btn, button.m-btn {
     align-items: center;
     height: 100vh;
     width: 95%;
-    padding-bottom: 20px;
-    padding-top: 100px;
+    padding: 100px 0;
     box-sizing: border-box;
+    z-index: 1;
+    position: relative;
     .main-contacts {
         display: flex;
         flex-direction: column;
@@ -288,7 +303,7 @@ a.m-btn, button.m-btn {
         padding-top: 5vw;
         a {
             font-family: 'SequelSans-Medium', sans-serif;
-            font-size: 20px;
+            font-size: 18px;
             color: #C0FFF0;
         }
     }
@@ -299,13 +314,13 @@ a.m-btn, button.m-btn {
         width: 100%;
         height: calc(100% - 40px);
         max-width: 1670px;
-        align-self: flex-end;
         transition: all 0.5s ease;
         &.transform {
             transform: translateX(5%);
         }
         .text-block {
             width: 40%;
+            margin-left: 5%;
         }
         .main-product-carousel {
             width: 55%;
@@ -326,19 +341,21 @@ a.m-btn, button.m-btn {
 
 
     h2 {
-        max-width: 550px;
+        max-width: 430px;
     }
     .main-footer {
+        max-width: 1670px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
         position: absolute;
-        bottom: 45px;
+        bottom: 110px;
         left: 50%;
         width: 95%;
         transform: translateX(-50%);
     }
     .link-box {
+        margin-bottom: -15px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -356,7 +373,6 @@ a.m-btn, button.m-btn {
             color: #C0FFF0;
             opacity: 0.7;
             text-transform: uppercase;
-            margin-top: 7px;
             margin-right: 35px;
             white-space: nowrap;
         }
@@ -364,7 +380,7 @@ a.m-btn, button.m-btn {
 }
 
 .basket-icon {
-    width: 35px;
+    width: 30px;
     img {
         width: 100%;
     }
