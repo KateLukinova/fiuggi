@@ -173,6 +173,11 @@ a.m-btn, button.m-btn {
     -webkit-transform: translate(-50%, 10px);
     -ms-transform: translate(-50%, 10px);
     transform: translate(-50%, 10px);
+    width: auto;
+    height: 900px;
+    img {
+        height: 100%;
+    }
 }
 
 .m-navbar {

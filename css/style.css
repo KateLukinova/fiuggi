@@ -157,7 +157,11 @@ a.m-btn, button.m-btn {
   left: 55%;
   -webkit-transform: translate(-50%, 10px);
   -ms-transform: translate(-50%, 10px);
-  transform: translate(-50%, 10px); }
+  transform: translate(-50%, 10px);
+  width: auto;
+  height: 900px; }
+  .circles img {
+    height: 100%; }
 
 .m-navbar {
   margin: auto;

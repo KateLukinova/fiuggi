@@ -127,6 +127,8 @@ $( document ).ready(function() {
     });
 
     // scrollbar init
-
+    // $(window).on("load",function(){
+    //     $("body").mCustomScrollbar();
+    // });
 
 });
