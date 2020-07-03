@@ -57,6 +57,11 @@
                                 PLANT
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="#" class="basket-icon" id="basket-btn">
+                                <img src="img/shopping-basket.svg" alt="">
+                            </a>
+                        </li>
                     </ul>
                     <div class="search-container">
                         <input id="searchBar" class="searchbar" type="text" placeholder="Search...">
@@ -66,13 +71,11 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="basket-icon" id="basket-btn">
-                <img src="img/shopping-basket.svg" alt="">
-            </a>
         </nav>
     </header>
 
     <div class="container-fluid bg-main-image">
+        <img src="img/what-is.png" alt="" class="what-is-block">
         <div class="circles">
             <img src="img/circles.svg" alt="">
         </div>
@@ -100,7 +103,7 @@
             <div class="main-footer">
                 <img src="img/stars.png" alt="">
                 <div class="link-box">
-                    <span>Bay on:</span>
+                    <span>Bay on : </span>
                     <a href="#">
                         <img src="img/amazon.png" alt="">
                     </a>
@@ -112,8 +115,8 @@
         </section>
     </div>
 
-    <section class="two-block container">
-        <div class="column" data-aos="fade-up">
+    <section class="two-block container circle-bg-center">
+        <div class="column">
             <div class="text">
                 <div class="caption">THE WATER THAT BREAKS THE STONE</div>
                 <div class="quote">
@@ -134,7 +137,7 @@
                 </p>
             </div>
         </div>
-        <div class="column" data-aos="fade-left">
+        <div class="column">
             <div class="img">
                 <img src="img/miki.png" alt="">
                 <p>
@@ -168,7 +171,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -185,7 +188,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -202,7 +205,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -219,7 +222,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -236,7 +239,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -253,7 +256,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -270,7 +273,7 @@
                 </div>
                 <div class="product-cart__footer">
                     <a href="#" class="btn-cart">
-                        add to cart
+                        order now
                     </a>
                     <div class="price">15$</div>
                 </div>
@@ -287,7 +290,7 @@
     </section>
    <div class="container-fluid water">
        <section class="two-block">
-           <div class="column" data-aos="fade-up">
+           <div class="column">
                <div class="text">
                    <div class="caption big-margin-bottom">water</div>
                    <p>
@@ -302,7 +305,7 @@
                    <a href="#" class="main-btn">HOW IT WORKS</a>
                </div>
            </div>
-           <div class="column" data-aos="fade-right">
+           <div class="column">
                <div class="img">
                    <img src="img/water-img.png" alt="">
                </div>
@@ -311,12 +314,12 @@
    </div>
     <div class="container-fluid source">
         <section class="two-block column-reverse">
-            <div class="column" data-aos="fade-left">
+            <div class="column">
                 <div class="img">
                     <img src="img/source-img.png" alt="">
                 </div>
             </div>
-            <div class="column" data-aos="fade-up">
+            <div class="column">
                 <div class="text">
                     <div class="caption big-margin-bottom">Source</div>
                     <p>
@@ -336,7 +339,7 @@
 
     <div class="container-fluid plant">
         <section class="two-block">
-            <div class="column" data-aos="fade-up">
+            <div class="column">
                 <div class="text">
                     <div class="caption big-margin-bottom">plant</div>
                     <p>
@@ -348,10 +351,10 @@
                     <p>
                         It's in this environment that Fiuggi water continuously renews itself acquiring its unique physiochemical characteristics. It's in this journey that the water enriches itself everyday like 5000 years ago, with oligoelements present in volcanic deposits, acquiring those healthy and therapeutic properties which have been recognized and documented since ancient times.
                     </p>
-                    <a href="#" class="main-btn">MORE INFORMATION</a>
+                    <a href="#" class="main-btn" data-toggle="modal" data-target="#modal-one">MORE INFORMATION</a>
                 </div>
             </div>
-            <div class="column" data-aos="fade-right">
+            <div class="column">
                 <div class="img">
                     <img src="img/plant-img.png" alt="">
                 </div>
@@ -438,6 +441,86 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="modal-one" tabindex="-1" role="dialog" aria-labelledby="modal-one-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-one-label">HEALTH BENEFITS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="img/close-modal.svg" alt=""></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-content">
+                        <ul class="text-ul">
+                            <li>
+                                It is highly depurative because it aids in elimination of metabolic waste.
+                            </li>
+                            <li>
+                                Prevents the formation of kidney stones in predisposed and recurring subjects
+                            </li>
+                            <li>
+                                Is indicated in the expulsion of kidney stones through the disintegration of the crystal lattice of the calculus
+                            </li>
+                            <li>
+                                It is especially useful in the lithotripsy treatment of kidney stones because it aids in a more profound cleansing of the kidneys, eliminating any residue (crystal and sand-like fragments)
+                            </li>
+                            <li>
+                                Fiuggi is particularly indicated for urinary tract infections because of its notable dilution of bacteria in the urine.
+                            </li>
+                            <li>
+                                It contrasts the effects of dysmetabolism of uric acid and therefore useful in hyperuricaemias gout and uratic disorders.
+                            </li>
+                        </ul>
+                        <p class="p-italic">
+                            We advise you to consult your doctor before using Fiuggi water if you have any of the deceases mentioned above.
+                        </p>
+                        <ul class="text-ul">
+                            <li>
+                                It is highly depurative because it aids in elimination of metabolic waste.
+                            </li>
+                            <li>
+                                Prevents the formation of kidney stones in predisposed and recurring subjects
+                            </li>
+                            <li>
+                                Is indicated in the expulsion of kidney stones through the disintegration of the crystal lattice of the calculus
+                            </li>
+                            <li>
+                                It is especially useful in the lithotripsy treatment of kidney stones because it aids in a more profound cleansing of the kidneys, eliminating any residue (crystal and sand-like fragments)
+                            </li>
+                            <li>
+                                Fiuggi is particularly indicated for urinary tract infections because of its notable dilution of bacteria in the urine.
+                            </li>
+                            <li>
+                                It contrasts the effects of dysmetabolism of uric acid and therefore useful in hyperuricaemias gout and uratic disorders.
+                            </li>
+                        </ul>
+                        <ul class="text-ul">
+                            <li>
+                                It is highly depurative because it aids in elimination of metabolic waste.
+                            </li>
+                            <li>
+                                Prevents the formation of kidney stones in predisposed and recurring subjects
+                            </li>
+                            <li>
+                                Is indicated in the expulsion of kidney stones through the disintegration of the crystal lattice of the calculus
+                            </li>
+                            <li>
+                                It is especially useful in the lithotripsy treatment of kidney stones because it aids in a more profound cleansing of the kidneys, eliminating any residue (crystal and sand-like fragments)
+                            </li>
+                            <li>
+                                Fiuggi is particularly indicated for urinary tract infections because of its notable dilution of bacteria in the urine.
+                            </li>
+                            <li>
+                                It contrasts the effects of dysmetabolism of uric acid and therefore useful in hyperuricaemias gout and uratic disorders.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.ripples-min.js"></script>
     <script src="js/slick.min.js"></script>

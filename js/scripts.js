@@ -126,4 +126,7 @@ $( document ).ready(function() {
         $('.slider-nav-thumbnails').slick('slickNext');
     });
 
+    // scrollbar init
+
+
 });
