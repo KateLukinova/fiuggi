@@ -1,9 +1,12 @@
 @font-face {
   font-family: 'SequelSans-Bold';
-  src: url("../fonts/SequelSans-Bold.ttf"); }
+  src: url("../fonts/SequelSans-Bold.otf"); }
 @font-face {
   font-family: 'SequelSans-Medium';
-  src: url("../fonts/SequelSans-Medium.ttf"); }
+  src: url("../fonts/SequelSans-Medium.otf"); }
+@font-face {
+  font-family: 'SequelSans-Light';
+  src: url("../fonts/SequelSans-Light.otf"); }
 /*reset css*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -83,7 +86,7 @@ h1 {
   margin-bottom: 2vw; }
 
 h2 {
-  font-family: 'SequelSans-Medium', sans-serif;
+  font-family: 'SequelSans-Light', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.25vw;
@@ -458,7 +461,7 @@ a.m-btn, button.m-btn {
 
 .two-block {
   width: 90%;
-  max-width: 1120px;
+  max-width: 1430px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -470,7 +473,7 @@ a.m-btn, button.m-btn {
   -ms-flex-align: start;
   align-items: flex-start;
   height: auto;
-  padding: 130px 0; }
+  padding: 200px 0; }
   .two-block.circle-bg-center {
     background-image: url("../img/big-circle-bg.svg");
     background-repeat: no-repeat;
@@ -502,7 +505,7 @@ a.m-btn, button.m-btn {
       align-items: flex-end; }
       .two-block .column .img img {
         width: 100%;
-        max-width: 410px;
+        max-width: 480px;
         margin-bottom: 45px; }
       .two-block .column .img p {
         font-style: italic;
@@ -560,6 +563,7 @@ a.m-btn, button.m-btn {
 
 .main-btn {
   width: 100%;
+  max-width: 340px;
   height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -734,7 +738,7 @@ a.m-btn, button.m-btn {
 
 .best-products-carousel {
   width: 85%;
-  max-width: 1440px;
+  max-width: 1520px;
   margin: 0 -15px;
   margin-top: 6vw; }
 
@@ -792,11 +796,11 @@ a.m-btn, button.m-btn {
   width: 320px;
   height: auto;
   min-height: 558px;
-  padding: 20px 40px;
+  padding: 22px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
-  margin: 0 15px;
+  margin: 0 12px;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -838,17 +842,17 @@ a.m-btn, button.m-btn {
     align-items: flex-end; }
     .product-cart .product-cart__description .name {
       font-family: 'SequelSans-Bold', sans-serif;
-      font-size: 16px;
+      font-size: 13px;
       line-height: 1.4;
       text-align: right;
       color: #BEDBC1;
       margin-bottom: 10px;
       margin-top: 15px; }
     .product-cart .product-cart__description span {
-      font-family: 'SequelSans-Medium', sans-serif;
+      font-family: 'SequelSans-Light', sans-serif;
       font-style: normal;
       font-weight: 600;
-      font-size: 16px;
+      font-size: 13px;
       line-height: 1.4;
       text-align: right;
       color: #B1C8B4;
@@ -885,8 +889,9 @@ a.m-btn, button.m-btn {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'SequelSans-Medium', sans-serif;
-  font-size: 12px;
+  font-family: 'SequelSans-Light', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
   line-height: 24px;
   color: #BEDBC1;
   text-transform: uppercase;
@@ -916,15 +921,21 @@ a.m-btn, button.m-btn {
 .source {
   background-image: url("../img/source-bg.svg");
   background-repeat: no-repeat;
-  background-position: left 150px;
-  background-size: contain;
-  width: 100%; }
+  background-position: left 70px;
+  background-size: 25% auto;
+  width: 100%;
+  position: relative; }
+  .source .n-circle {
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    left: 12%; }
 
 .plant {
   background-image: url("../img/plant-bg.svg");
   background-repeat: no-repeat;
-  background-position: 50% 60%;
-  background-size: 30%;
+  background-position: 55% 75%;
+  background-size: 35%;
   width: 100%; }
 
 .product-page-bg {

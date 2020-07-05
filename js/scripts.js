@@ -40,7 +40,7 @@ $( document ).ready(function() {
         infinite: false,
         speed: 500,
         arrows: false,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 2,
         responsive: [
             {

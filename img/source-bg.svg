@@ -1,11 +1,8 @@
-<svg width="621" height="1019" viewBox="0 0 621 1019" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="533" height="634" viewBox="0 0 533 634" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_b)">
 <path d="M511 316.542C511 478.861 377.042 611.085 211 611.085C44.9585 611.085 -89 478.861 -89 316.542C-89 154.224 44.9585 22 211 22C377.042 22 511 154.224 511 316.542Z" stroke="#76DA68" stroke-opacity="0.03" stroke-width="44"/>
 </g>
 <g filter="url(#filter1_b)">
-<path d="M601 868.915C601 940.345 542.001 998.831 468.5 998.831C394.999 998.831 336 940.345 336 868.915C336 797.486 394.999 739 468.5 739C542.001 739 601 797.486 601 868.915Z" stroke="#68DAC5" stroke-opacity="0.05" stroke-width="40"/>
-</g>
-<g filter="url(#filter2_b)">
 <path d="M451.373 316.627C451.373 446.683 344.039 552.627 211 552.627C77.9605 552.627 -29.3727 446.683 -29.3727 316.627C-29.3727 186.571 77.9605 80.6273 211 80.6273C344.039 80.6273 451.373 186.571 451.373 316.627Z" stroke="#76DA68" stroke-opacity="0.03" stroke-width="35.2547"/>
 </g>
 <defs>
@@ -15,13 +12,7 @@
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
 </filter>
-<filter id="filter1_b" x="229.842" y="632.842" width="477.316" height="472.147" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feGaussianBlur in="BackgroundImage" stdDeviation="43.0791"/>
-<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
-</filter>
-<filter id="filter2_b" x="-192.763" y="-82.7627" width="807.525" height="798.78" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_b" x="-192.763" y="-82.7627" width="807.525" height="798.78" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="72.8813"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
