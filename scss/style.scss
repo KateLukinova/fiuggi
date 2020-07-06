@@ -576,6 +576,9 @@ a.m-btn, button.m-btn {
                 width: 100%;
                 max-width: 580px;
                 margin-bottom: 45px;
+                &.portret {
+                    max-width: 394px;
+                }
             }
             p {
                 font-style: italic;

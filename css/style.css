@@ -507,6 +507,8 @@ a.m-btn, button.m-btn {
         width: 100%;
         max-width: 580px;
         margin-bottom: 45px; }
+        .two-block .column .img img.portret {
+          max-width: 394px; }
       .two-block .column .img p {
         font-style: italic;
         text-align: right;
