@@ -44,10 +44,18 @@ $( document ).ready(function() {
         slidesToScroll: 2,
         responsive: [
             {
-                breakpoint: 1440,
+                breakpoint: 1640,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 2,
                     infinite: true,
                 }
             },
@@ -126,9 +134,11 @@ $( document ).ready(function() {
         $('.slider-nav-thumbnails').slick('slickNext');
     });
 
-    // scrollbar init
-    // $(window).on("load",function(){
-    //     $("body").mCustomScrollbar();
-    // });
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
 
 });

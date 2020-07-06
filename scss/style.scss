@@ -137,7 +137,7 @@ p {
     line-height: 1.5;
     color: #D1D1D1;
     opacity: 0.7;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 a.m-btn, button.m-btn {
@@ -178,7 +178,7 @@ a.m-btn, button.m-btn {
     -ms-transform: translate(-50%, 10px);
     transform: translate(-50%, 10px);
     width: auto;
-    height: 900px;
+    height: 90vh;
     img {
         height: 100%;
     }
@@ -558,7 +558,7 @@ a.m-btn, button.m-btn {
     .column {
         width: 48%;
         .main-btn {
-            margin-top: 2vw;
+            margin-top: 4vw;
         }
         .img {
             width: 100%;
@@ -574,7 +574,7 @@ a.m-btn, button.m-btn {
             align-items: flex-end;
             img {
                 width: 100%;
-                max-width: 480px;
+                max-width: 580px;
                 margin-bottom: 45px;
             }
             p {
@@ -637,7 +637,7 @@ a.m-btn, button.m-btn {
     margin-bottom: 45px;
     text-transform: uppercase;
     &.big-margin-bottom {
-        margin-bottom: 5vw;
+        margin-bottom: 10vw;
     }
 }
 
@@ -812,6 +812,8 @@ a.m-btn, button.m-btn {
 
 .stones {
     width: 100%;
+    max-width: 900px;
+    margin: auto;
 }
 
 .best-products {
@@ -1037,7 +1039,7 @@ a.m-btn, button.m-btn {
 .source {
     background-image: url("../img/source-bg.svg");
     background-repeat: no-repeat;
-    background-position: left 70px;
+    background-position: left 150px;
     background-size: 25% auto;
     width: 100%;
     position: relative;
@@ -1276,7 +1278,7 @@ footer {
         -ms-flex-pack: justify;
         justify-content: space-between;
         margin: auto;
-        margin-top: -80px;
+        margin-top: -30px;
     }
     .copyright {
         font-family: 'SequelSans-Medium', sans-serif;
@@ -1287,7 +1289,7 @@ footer {
         width: 90%;
         max-width: 1370px;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 15px;
     }
     .footer-logo {
         opacity: 0.25;
@@ -1393,7 +1395,7 @@ footer {
 
 .soc-box {
     a {
-        margin-right: 15px;
+        margin-right: 5px;
         &:nth-last-child(1) {
             margin-right: 0;
         }
@@ -1569,7 +1571,6 @@ footer {
             -webkit-transition: all 0.5s ease;
             -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
-            background-image: url("../img/menu-mobile-png.png");
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
